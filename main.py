@@ -5,7 +5,7 @@ from pydub import AudioSegment
 
 combined = AudioSegment.empty()
 
-text = raw_input('Text to generate: ')
+text = input('Text to generate: ')
 
 audiopath = 'audio/'
 
